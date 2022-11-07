@@ -4,7 +4,7 @@ class AlertPage extends StatelessWidget {
   showMyAlert(BuildContext context) {
     showDialog(
       context: context,
-      builder: (BuildContext context1) {
+      builder: (BuildContext context) {
         return AlertDialog(
           title: Text("AlertDialog example!!!"),
           backgroundColor: Colors.white,
@@ -43,20 +43,20 @@ class AlertPage extends StatelessWidget {
               onPressed: () {
                 showMyAlert(context);
               },
-              child: Text("Alert"),
+              child: Text("Alert 1"),
             ),
             ElevatedButton(
               onPressed: () {
                 showMyAlert(context);
               },
-              child: Text("Alert"),
+              child: Text("Alert 2"),
             ),
             ElevatedButton(
               onPressed: () {
                 showMyAlert(context);
               },
-              child: Text("Alert"),
-            )
+              child: Text("Alert 3"),
+            ),
           ],
         ),
       ),
