@@ -41,8 +41,7 @@ class Inputpage extends StatelessWidget {
                       color: Color.fromARGB(243, 221, 25, 255), width: 3.0),
                   borderRadius: BorderRadius.circular(20.0),
                 ),
-                enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10.0),
+                enabledBorder: OutlineInputBorder(                    borderRadius: BorderRadius.circular(10.0),
                     borderSide: BorderSide(color: Color.fromARGB(255, 100, 218, 239), width: 5.0)),
               ),
 
