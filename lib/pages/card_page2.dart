@@ -92,7 +92,7 @@ class CardPage2 extends StatelessWidget {
             child: Row(
               children: [
                 Image.asset(
-                  "assets/images/perfil2.png",
+                  "assets/images/perfil1.png",
                   height: 120.0,
                 ),
                 Expanded(
